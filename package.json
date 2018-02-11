@@ -1,0 +1,18 @@
+{
+    "name": "s2-grid",
+    "version": "1.0.0",
+    "description": "Generate a labelled S2 grid from a rectangular selection",
+    "keywords": [
+      "s2"
+    ],
+    "homepage": "https://github.com/xiankai/s2-grid",
+    "bugs": "https://github.com/xiankai/s2-grid/issues",
+    "license": "MIT",
+    "engines": {
+      "node": "~6.12.2"
+    },
+    "dependencies": {
+      "@mapbox/s2": "^0.5.1"
+    }
+  }
+  
