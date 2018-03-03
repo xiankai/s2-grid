@@ -8,11 +8,11 @@
     "homepage": "https://github.com/xiankai/s2-grid",
     "bugs": "https://github.com/xiankai/s2-grid/issues",
     "license": "MIT",
-    "engines": {
-      "node": "~6.12.2"
-    },
+    "bundledDependencies": [
+      "node-pre-gyp"
+    ],
     "dependencies": {
-      "@mapbox/s2": "^0.5.1"
+      "@mapbox/s2": "https://github.com/gerhardberger/node-s2.git#update-node-pre-gyp"
     }
   }
   
